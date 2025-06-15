@@ -99,7 +99,7 @@ const AboutModalTrigger: FC = () => {
                    focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-70"
         aria-controls="about-app-modal"
       >
-        About iScholar
+        About iSight
       </button>
 
       {/* The Modal component, conditionally rendered */}

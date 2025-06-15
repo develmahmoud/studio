@@ -5,7 +5,7 @@ import { AppSettingsProvider } from '@/contexts/app-settings-context';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'SightReader',
+  title: 'iSight',
   description: 'Capture, read, and understand textbook content effortlessly.',
 };
 

@@ -17,7 +17,8 @@ import { LoadingSpinner } from '@/components/loading-spinner';
 import { Slider } from "@/components/ui/slider"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-
+import AboutDev from './about-dev';
+import AboutModalTrigger from './about-us';
 
 export default function SightReaderClientPage() {
   const [imagePreview, setImagePreview] = useState<string | null>(null);
@@ -389,6 +390,10 @@ export default function SightReaderClientPage() {
           </CardFooter>
         </Card>
       )}
+      <div className='flex space-x-2'>
+          <AboutDev />
+      <AboutModalTrigger />
+      </div>
     </div>
   );
 }

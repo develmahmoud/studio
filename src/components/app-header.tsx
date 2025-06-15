@@ -16,8 +16,7 @@ export function AppHeader() {
           </h1>
         </div>
         <div className="flex items-center gap-2">
-          {<AboutModalTrigger />}
-          <AboutDev />
+          
           <ThemeToggle />
         </div>
       </div>

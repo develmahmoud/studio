@@ -1,6 +1,6 @@
 import { AppHeader } from '@/components/app-header';
 import SightReaderClientPage from '@/components/sight-reader-client-page';
-
+import AboutDev from '@/components/about-dev';
 export default function Home() {
   return (
     <>

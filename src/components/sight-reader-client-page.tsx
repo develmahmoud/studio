@@ -261,11 +261,7 @@ export default function SightReaderClientPage() {
                   {isSpeaking && !isPaused ? <PauseCircle className="mr-2 h-5 w-5" /> : <PlayCircle className="mr-2 h-5 w-5" />}
                   {isSpeaking && !isPaused ? 'Pause' : (isPaused ? 'Resume' : 'Read Aloud')}
                 </Button>
-                {isSpeaking && (
-                    <Button onClick={cancel} variant="destructive" size="icon" aria-label="Stop reading">
-                        <Volume2 className="h-5 w-5" /> {/* Using Volume2 as a generic "stop sound" icon */}
-                    </Button>
-                )}
+                
                 <Popover>
                   <PopoverTrigger asChild>
                     <Button variant="ghost" size="icon" aria-label="Speech settings">
